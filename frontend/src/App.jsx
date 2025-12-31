@@ -10,12 +10,6 @@ import Register from "./components/Register";
 import ProjectList from "./components/ProjectList";
 import ProjectDetail from "./components/ProjectDetail";
 import ProtectedRoute from "./components/ProtectedRoute";
-import "./styles/Auth.css";
-import "./styles/Navbar.css";
-import "./styles/Projects.css";
-import "./styles/ProjectDetail.css";
-import "./styles/TaskBoard.css";
-import "./styles/TaskCard.css";
 
 const AppContent = () => {
   const { token } = useAuth();
