@@ -11,7 +11,7 @@
 
 **A production-ready, full-stack MERN application for collaborative project and task management with Kanban board, drag-and-drop functionality, and real-time updates.**
 
-[🚀 Live Demo (Frontend)](https://your-app.vercel.app) • [🔗 API Backend](https://mustafanoor-taskflow-backend.hf.space/api) • [📖 API Docs](#api-documentation)
+[🚀 Live Demo](https://task-flow-tawny-six.vercel.app/) • [🔗 API Backend](https://mustafanoor-taskflow-backend.hf.space/api)
 
 </div>
 
@@ -178,7 +178,7 @@ mern_project/
 ## 🚀 Installation & Setup
 
 ### Prerequisites
-Ensure you have the following installed:
+The following are required:
 - **Node.js** (v20.19.0 or higher) - [Download](https://nodejs.org/)
 - **npm** or **yarn** (comes with Node.js)
 - **MongoDB Atlas account** - [Sign up](https://www.mongodb.com/cloud/atlas)
@@ -631,7 +631,7 @@ npm install -g vercel
 
 2. **Deploy via Vercel Dashboard** (Recommended)
    - Go to [vercel.com/new](https://vercel.com/new)
-   - Import your repository
+   - Import the repository
    - Configure settings:
      - **Framework Preset**: Vite
      - **Root Directory**: `frontend`
@@ -647,8 +647,7 @@ cd frontend
 vercel --prod
 ```
 
-4. **Update README with live URL**
-   - After deployment, update the "Live Demo" link at the top of this README
+
 
 **Vercel Configuration** (`vercel.json`):
 ```json
@@ -724,7 +723,7 @@ curl -X POST https://mustafanoor-taskflow-backend.hf.space/api/auth/register \
 ```
 
 3. **Test frontend**
-   - Navigate to your Vercel URL
+   - Navigate to https://task-flow-tawny-six.vercel.app/
    - Register a new account
    - Create a project
    - Create tasks and test drag-and-drop
@@ -749,7 +748,7 @@ curl -X POST https://mustafanoor-taskflow-backend.hf.space/api/auth/register \
 **Frontend API calls failing:**
 - Verify `VITE_API_URL` is set correctly
 - Check browser console for CORS errors
-- Ensure backend CORS is configured for your frontend domain
+- Ensure backend CORS is configured for the frontend domain
 
 **Database connection errors:**
 - Check MongoDB Atlas IP whitelist
